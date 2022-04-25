@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shafat-react-portfolio/static/css/main.577d8aa9.css",
+    "main.js": "/shafat-react-portfolio/static/js/main.d2a8a2df.js",
+    "static/js/787.67d22e21.chunk.js": "/shafat-react-portfolio/static/js/787.67d22e21.chunk.js",
+    "index.html": "/shafat-react-portfolio/index.html",
+    "main.577d8aa9.css.map": "/shafat-react-portfolio/static/css/main.577d8aa9.css.map",
+    "main.d2a8a2df.js.map": "/shafat-react-portfolio/static/js/main.d2a8a2df.js.map",
+    "787.67d22e21.chunk.js.map": "/shafat-react-portfolio/static/js/787.67d22e21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.577d8aa9.css",
+    "static/js/main.d2a8a2df.js"
+  ]
+}

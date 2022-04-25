@@ -11,7 +11,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           <a href="#portfolio">Portfolio</a>
         </li>
         <li onClick={()=>setMenuOpen(false)}>
-          <a href="#works">Resume</a>
+          <a href="https://github.com/srahman9/shafat-react-portfolio/files/8557288/resumev1.pdf">Resume</a>
         </li>
         <li onClick={()=>setMenuOpen(false)}>
           <a href="#contact">Contact</a>

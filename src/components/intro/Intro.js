@@ -1,30 +1,18 @@
 import "./intro.scss";
-// import { init } from "ityped";
-import { useEffect, useRef } from "react";
 
 export default function Intro() {
-  const textRef = useRef();
-
-  // useEffect(() => {
-  //   init(textRef.current, {
-  //     showCursor: true,
-  //     backDelay: 1500,
-  //     backSpeed:60,
-  //     strings: ["Developer", "Designer", "Content Creator"],
-  //   });
-  // }, []);
 
   return (
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/man.png" alt="" />
+          <img src="https://user-images.githubusercontent.com/32348687/165153163-f1e40904-524e-4bff-bc3b-48271ccd3191.jpeg" alt="" />
         </div>
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>Hi I'm</h2>
-          <h1>Shafat Rahman</h1>
+          <h3>Hi my name is</h3>
+          <h2>Shafat Rahman</h2>
           <h3>
           I am currently pursuing a certification to be a Full Stack Web Developer through GW Coding Boot Camp. posess a background in Accounting. Motivated to gain experience in new technologies and systems to improve skillset.
           </h3>

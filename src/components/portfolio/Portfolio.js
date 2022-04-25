@@ -33,6 +33,7 @@ export default function Portfolio() {
             setSelected={setSelected}
             id={item.id}
           />
+          
         ))}
       </ul>
       <div className="container">
@@ -42,9 +43,21 @@ export default function Portfolio() {
               src={d.img}
               alt=""
             />
-            <h3>{d.title}</h3>
+            <h3>{d.title}</h3>     
           </div>
         ))}
+        {data.map((d) => (
+          <div className="item">
+              <a href={d.url} class="button">{d.title} Application</a>
+          </div>
+        ))}
+        {data.map((d) => (
+          <div className="item">
+              <a href={d.github} class="button">{d.title} Github</a>
+          </div>
+          
+        ))}
+
       </div>
     </div>
   );

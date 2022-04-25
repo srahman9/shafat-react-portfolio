@@ -1,5 +1,4 @@
 import "./topbar.scss";
-// import { Person, Mail } from "@material-ui/icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -15,7 +14,6 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             SR
           </a>
           <div className="itemContainer">
-            {/* <Person className="icon" /> */}
             <span>(862)216-0043</span>
           </div>
           <div className="itemContainer">
